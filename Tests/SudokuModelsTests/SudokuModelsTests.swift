@@ -2,6 +2,7 @@ import XCTest
 @testable import SudokuModels
 
 final class SudokuModelsTests: XCTestCase {
+
     func testScoreModel() throws {
         let now = Date()
         let model = ScoreModel(date: now, seconds: 10, numIncorrect: 1, numRemaining: 2, usedColor: false)
